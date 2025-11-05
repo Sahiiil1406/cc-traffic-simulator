@@ -1,0 +1,14 @@
+python3 -m venv venv
+source venv/bin/activate
+
+# 1. Install dependencies
+pip install numpy matplotlib pandas torch traci
+
+# 2. Create SUMO network and run baseline simulation
+python sumo_setup.py
+
+# 3. Train MARL agents (300 episodes)
+python marl_implementation.py
+
+# 4. Generate analysis plots and metrics
+python results_visualization.py

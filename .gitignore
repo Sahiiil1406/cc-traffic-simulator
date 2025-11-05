@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs / Caches
+*.log
+*.sqlite3
+*.db
+.cache/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SUMO outputs
+*.xml
+*.net.xml
+*.rou.xml
+*.sumocfg
+*.edg.xml
+*.nod.xml
+*.poly.xml
+*.trip.xml
+*.trips.xml
+*.netccfg
+*.neteditcfg
+*.sumo
+*.sumo.log
+*.csv
+*.txt
